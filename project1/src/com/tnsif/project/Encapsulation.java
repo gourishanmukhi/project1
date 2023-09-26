@@ -1,12 +1,13 @@
 package com.tnsif.project;
 
 public class Encapsulation {
-//data members
+     //data members
 	public int serialno;
 	public String name;
 	public int age;
-	//member functions
-	public void show() {
-		System.out.println("serialno"+serialno+"\t"+"name"+name+"\t"+"age"+age);
+	//member function
+	public void show()
+	{
+		System.out.println("serialno"+serialno+"\t"+"name"+name+"\t"+"age"+age+"\t");
 	}
 }
