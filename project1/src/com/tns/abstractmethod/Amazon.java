@@ -7,9 +7,9 @@ public class Amazon {
         int amt;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter amount");
-        amt=sc.nextInt();
+        amt = sc.nextInt();
         Accounts a;
-        a=new NonPrime(amt);
+        a = new NonPrime(amt);
         a.deliveryCharges(amt);
 	}
 
